@@ -1,0 +1,51 @@
+<!-- Notes
+Box model
+Element in blue color 
+Padding in green color 
+Border in yellow color 
+Margin in orange color 
+Box-sizing:border-box if i will do margin and padding from left it will increase the width.
+but with box-sizing:border-box it will not -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border,Padding and Margin</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .div
+        {
+            background-color: #412727;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(255 255 255);
+            height: 200px;
+            width:400px;
+            padding: 10px 10px;
+            margin: 20px 20px;
+            border: 2px solid rgb(148, 10, 10);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1>First box</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum quisquam repellat, sit expedita laborum aliquid reprehenderit atque quis quas voluptas illo ipsam natus deleniti maiores iste fugiat repellendus amet.</p>
+    </div>
+    <div class="div">
+        <h1>Second box</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum quisquam repellat, sit expedita laborum aliquid reprehenderit atque quis quas voluptas illo ipsam natus deleniti maiores iste fugiat repellendus amet.</p>
+    </div>
+    <div class="div">
+        <h1>Third box</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum quisquam repellat, sit expedita laborum aliquid reprehenderit atque quis quas voluptas illo ipsam natus deleniti maiores iste fugiat repellendus amet.</p>
+    </div>
+
+</body>
+</html>
